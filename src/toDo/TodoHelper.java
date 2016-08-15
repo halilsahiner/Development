@@ -16,10 +16,10 @@ public class TodoHelper{
 	
 	public static void mark(int index, boolean check) {
 		if(check) {
-			toDoList.get(index).isChecked = false;
+			toDoList.get(index).isChecked = true;
 		}
 		else
-			toDoList.get(index).isChecked = true;
+			toDoList.get(index).isChecked = false;
 
 	}
 	
